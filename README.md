@@ -1,5 +1,9 @@
 #LeakCanary
 
+对Jar包进行了简单的整合，方便调用
+haha-v1.3
+leakcanary-v1.3.1
+
 A memory leak detection library for Android and Java.
 
 *“A small leak will sink a great ship.”* - Benjamin Franklin
