@@ -15,4 +15,10 @@ public class TestActivity extends Activity {
 
         TestDataModel.getInstance().setRetainedTextView(textView);
     }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        TestDataModel.getInstance().setRetainedTextView(null);
+    }
 }
