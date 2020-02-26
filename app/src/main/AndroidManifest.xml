@@ -21,15 +21,6 @@
         </activity>
         
         <activity android:name="demo.leakcanary.srain.in.leakcanarydemo.TestActivity" />
-
-        <service
-            android:name="com.squareup.leakcanary.internal.HeapAnalyzerService"
-            android:enabled="false"
-            android:process=":leakcanary" />
-        <service
-            android:name="com.squareup.leakcanary.DisplayLeakService"
-            android:enabled="false" />
-
     </application>
 
 </manifest>
